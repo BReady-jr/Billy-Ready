@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Billy Ready, Jr. | Faith At The Speed Of Life</title>
+<meta name="description" content="Biblical encouragement, practical wisdom, and hope for the journey of everyday life from author Billy Ready, Jr.">
+<style>
+:root{--navy:#174a78;--navy2:#12395f;--gold:#2f78b7;--cream:#f5f9fc;--ink:#243746;--muted:#5b6d7b;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.65 Georgia,"Times New Roman",serif}a{color:inherit} .sans{font-family:Arial,Helvetica,sans-serif}
+.wrap{width:min(1120px,92%);margin:auto}.topbar{background:var(--navy2);color:#fff;padding:13px 0}.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font:700 15px/1.3 Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}.brand span{display:block;color:#e2c783;font-weight:400;font-size:11px;letter-spacing:.18em;margin-top:4px}.navlinks{display:flex;gap:24px;align-items:center;font:14px Arial,sans-serif}.navlinks a{text-decoration:none;color:#f8f4ea}.navlinks a:hover{color:#e2c783}
+.hero{background:linear-gradient(125deg,var(--navy2),var(--navy));color:#fff;overflow:hidden}.hero-inner{display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:56px;padding:76px 0 72px}.eyebrow{font:700 12px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#e2c783}.hero h1{font-size:clamp(40px,5.3vw,66px);line-height:1.06;letter-spacing:-.035em;margin:16px 0 22px;font-weight:500}.hero p{font-size:19px;color:#e9edf1;max-width:580px;margin:0 0 28px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-block;text-decoration:none;padding:13px 20px;border-radius:4px;font:700 13px Arial,sans-serif;letter-spacing:.04em}.btn-gold{background:var(--gold);color:#152c40}.btn-outline{border:1px solid #c9d3dc;color:#fff}.portrait-frame{justify-self:center;width:min(100%,365px);padding:10px;border:1px solid rgba(226,199,131,.7);border-radius:180px 180px 12px 12px}.portrait{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center top;border-radius:170px 170px 7px 7px;background:#fff}
+.section{padding:76px 0}.section-heading{text-align:center;max-width:720px;margin:0 auto 42px}.section-heading .eyebrow{color:#967438}.section h2{font-size:clamp(30px,4vw,43px);line-height:1.15;font-weight:500;color:var(--navy);margin:10px 0 15px}.section-heading p{color:var(--muted);margin:0}.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.intro-copy h2{margin-top:0}.intro-copy p{color:#4f5b64}.pullquote{border-left:3px solid var(--gold);padding:12px 0 12px 22px;font-size:21px;font-style:italic;color:var(--navy);margin:26px 0}.credentials{background:#f0eadd;padding:30px;border-radius:8px}.credentials h3{color:var(--navy);margin:0 0 12px;font-size:22px;font-weight:500}.credentials p{margin:0;color:#4f5b64}
+.books{background:#fff}.book-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.book-card{display:grid;grid-template-columns:minmax(130px,.7fr) 1fr;gap:26px;align-items:center;background:var(--cream);padding:26px;border:1px solid #e7dfd1;border-radius:8px}.book-cover{aspect-ratio:2/3;display:flex;flex-direction:column;justify-content:space-between;padding:22px 15px;text-align:center;color:#fff;box-shadow:8px 10px 18px #152b3b25;min-height:250px;background:linear-gradient(155deg,#274e70,#10263c);border:4px solid #d5b36c;outline:1px solid #b28b43;outline-offset:-9px}.book-cover.storm{background:linear-gradient(155deg,#263f58 0%,#142638 55%,#5b6976 100%)}.book-cover.hope{background:linear-gradient(155deg,#233e59 0%,#14283d 55%,#8c7145 100%)}.cover-small{font:10px Arial,sans-serif;letter-spacing:.16em;text-transform:uppercase}.cover-title{font:700 clamp(18px,2vw,25px)/1.15 Georgia,serif;text-transform:uppercase;letter-spacing:.025em}.cover-sub{font:10px Arial,sans-serif;letter-spacing:.08em}.book-copy h3{font-size:25px;line-height:1.2;color:var(--navy);font-weight:500;margin:0 0 12px}.book-copy p{color:#58636b;margin:0 0 17px}.text-link{color:#8b6a2e;font:700 13px Arial,sans-serif;text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:4px}
+.devotional{background:#f0eadd}.devotional-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:start}.devotional h2{margin-top:0}.devotional p{color:#4f5b64}.devotion-card{background:#fff;border-radius:8px;padding:30px;border-top:4px solid var(--gold);box-shadow:0 8px 25px #152b3b0c}.devotion-card .verse{font-size:13px;color:#8b6a2e;font-family:Arial,sans-serif;font-weight:700;letter-spacing:.08em;text-transform:uppercase}.devotion-card h3{font-size:26px;line-height:1.2;color:var(--navy);font-weight:500;margin:12px 0}.newsletter{background:var(--navy);color:#fff;padding:70px 0}.newsletter-inner{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}.newsletter h2{font-size:clamp(30px,4vw,42px);line-height:1.15;font-weight:500;margin:8px 0 14px}.newsletter p{color:#e0e6eb;margin:0}.signup{background:#fff;padding:24px;border-radius:8px;color:var(--ink)}.signup label{display:block;font:700 12px Arial,sans-serif;margin:0 0 7px;color:var(--navy)}.signup input{width:100%;padding:13px 12px;margin-bottom:14px;border:1px solid #cbd2d7;border-radius:4px;font:15px Arial,sans-serif}.signup button{width:100%;border:0;cursor:pointer}.form-note{font:12px/1.5 Arial,sans-serif;color:#69737a;margin-top:12px}
+footer{background:#10283f;color:#dfe5ea;padding:28px 0;font:13px Arial,sans-serif}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-links{display:flex;gap:18px}.footer-links a{text-decoration:none;color:#dfe5ea}
+@media(max-width:760px){.nav{align-items:flex-start;flex-direction:column}.navlinks{gap:15px;flex-wrap:wrap}.hero-inner{grid-template-columns:1fr;gap:35px;padding:55px 0}.hero-copy{order:1}.portrait-frame{order:0;width:220px}.intro-grid,.book-grid,.devotional-grid,.newsletter-inner{grid-template-columns:1fr;gap:28px}.section{padding:55px 0}.book-card{grid-template-columns:125px 1fr;padding:17px;gap:18px}.book-cover{min-height:210px;padding:18px 10px}.book-copy h3{font-size:21px}.credentials{padding:24px}.newsletter{padding:55px 0}}
+@media(max-width:420px){.book-card{grid-template-columns:1fr}.book-cover{width:58%;min-height:250px;margin:auto}.hero h1{font-size:42px}}
+
+/* Clean, contemporary white-and-blue theme */
+body{background:#fff;color:#243746;font-family:Arial,Helvetica,sans-serif}
+.topbar{background:#fff;color:#174a78;border-bottom:1px solid #e4edf4}
+.brand{color:#174a78}
+.brand span{color:#2f78b7}
+.navlinks a{color:#34556f}
+.navlinks a:hover{color:#2f78b7}
+.hero{background:linear-gradient(135deg,#f5faff 0%,#eaf4fc 100%);color:#173653}
+.hero h1{color:#153f65;font-weight:700;letter-spacing:-.045em}
+.hero p{color:#4b6275}
+.eyebrow{color:#2f78b7}
+.portrait-frame{border:1px solid #cbddeb;border-radius:12px;padding:8px;background:#fff}
+.portrait{border-radius:8px}
+.btn{border-radius:5px}
+.btn-gold{background:#1765a0;color:#fff}
+.btn-gold:hover{background:#104c7b}
+.btn-outline{border:1px solid #1765a0;color:#1765a0}
+.section{background:#fff}
+.section-heading .eyebrow,.intro-copy .eyebrow,.devotional .eyebrow{color:#2f78b7}
+.section h2{color:#174a78}
+.pullquote{border-left-color:#2f78b7;color:#174a78}
+.credentials{background:#f2f7fb;border:1px solid #e0ebf4;border-radius:8px}
+.books{background:#f7fafc}
+.book-card{background:#fff;border-color:#e1eaf1;box-shadow:0 8px 24px #174a780c}
+.book-cover{border-color:#b9d4e8;outline-color:#2f78b7}
+.book-cover.storm{background:linear-gradient(155deg,#4c86b4 0%,#174a78 58%,#12395f 100%)}
+.book-cover.hope{background:linear-gradient(155deg,#78a8cf 0%,#245f91 55%,#12395f 100%)}
+.text-link{color:#1765a0;border-bottom-color:#80b7df}
+.devotional{background:#f2f7fb}
+.devotion-card{box-shadow:0 8px 25px #174a780d;border-top-color:#2f78b7}
+.devotion-card .verse{color:#2f78b7}
+.newsletter{background:#174a78}
+.newsletter .eyebrow{color:#a9d5f7}
+.signup{box-shadow:0 10px 28px #0e2f4c18}
+.signup label{color:#174a78}
+footer{background:#12395f}
+@media(max-width:760px){.topbar{background:#fff}.navlinks a{color:#34556f}}
+
+
+/* Responsive author book gallery */
+.featured-books{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;margin-top:34px}
+.featured-book{display:grid;grid-template-columns:minmax(135px,.72fr) 1fr;gap:24px;align-items:center;padding:25px;background:#f2f7fb;border:1px solid #dce8f1;border-radius:12px}
+.cover-link,.gallery-cover-link{display:block;min-width:0;text-decoration:none}
+.real-book-cover{display:block;width:100%;height:auto;aspect-ratio:2/3;object-fit:contain;background:#e8eff5;border-radius:4px;box-shadow:0 12px 28px #102d451c}
+.featured-copy h3{font-size:clamp(21px,2.2vw,29px);line-height:1.18;color:var(--navy);font-weight:600;margin:8px 0 12px}
+.featured-copy p,.gallery-card p{color:#58636b;font-size:15px;line-height:1.65}
+.book-gallery-heading{text-align:center;margin:64px 0 24px}
+.book-gallery-heading h3{font-size:clamp(24px,3vw,34px);color:var(--navy);font-weight:500;margin:0 0 8px}
+.book-gallery-heading p{color:#58636b;margin:0 auto;max-width:620px}
+.book-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.gallery-card{padding:20px;background:#fff;border:1px solid #e1e9ef;border-radius:10px;min-width:0}
+.gallery-cover-link{width:100%;max-width:230px;margin:0 auto 20px}
+.gallery-card h4{font-size:19px;line-height:1.3;color:var(--navy);margin:0 0 8px}
+.gallery-card p{font-size:14px;margin:0 0 12px}
+.book-status{display:inline-block;font:700 11px Arial,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#245f91;background:#edf5fb;padding:6px 9px;border-radius:20px}
+.cover-reminder{text-align:center;color:#727b80;font-size:12px;margin:28px auto 0;max-width:700px}
+@media(max-width:900px){.featured-books{grid-template-columns:1fr}.book-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:560px){.featured-book{grid-template-columns:115px 1fr;gap:16px;padding:16px}.featured-copy h3{font-size:21px}.featured-copy p{font-size:14px}.book-gallery{grid-template-columns:1fr 1fr;gap:14px}.gallery-card{padding:12px}.gallery-card h4{font-size:16px}.gallery-card p{font-size:13px}.gallery-cover-link{margin-bottom:14px}}
+
+
+/* Supplied author hero banner */
+.hero-banner{width:100%;margin:0;background:#f5f9fc;overflow:hidden}
+.hero-banner img{display:block;width:100%;height:auto;max-height:none;object-fit:contain}
+</style>
+</head>
+<body>
+<header class="topbar">
+ <div class="wrap nav">
+  <a class="brand" href="#home" style="text-decoration:none">Billy Ready, Jr.<span>Faith At The Speed Of Life</span></a>
+  <nav class="navlinks" aria-label="Main navigation">
+   <a href="#about">About</a><a href="#books">Books</a><a href="#devotional">Devotionals</a><a href="#newsletter">Stay Connected</a>
+  </nav>
+ </div>
+</header>
+<main>
+<section class="hero-banner" id="home" aria-label="Faith At The Speed Of Life">
+ <img src="images/hero-banner.jpg" alt="Billy Ready, Jr. author banner. Faith At The Speed Of Life, encouragement for today, perspective for tomorrow, and hope for the journey ahead." fetchpriority="high" width="734" height="182">
+</section>
+<section class="section" id="about">
+ <div class="wrap intro-grid">
+  <div class="intro-copy">
+   <div class="eyebrow">Meet the author</div>
+   <h2>Faith belongs in the middle of real life.</h2>
+   <p>Life rarely follows a tidy outline. We face unexpected storms, complicated relationships, unanswered questions, and days when we need a fresh reminder of hope.</p>
+   <p>I'm Billy Ready, Jr., a Christian author, pastor, educator, songwriter, and counselor. Through decades of ministry and counseling, I've seen how biblical truth speaks into ordinary struggles and life-changing seasons alike.</p>
+   <p>My writing brings Scripture into everyday conversations with warmth, practical insight, and an occasional bit of dry humor. My hope is to help you take the next faithful step, one day at a time.</p>
+   <div class="pullquote">“Look not every man on his own things, but every man also on the things of others.”</div>
+   <p style="font-size:13px;color:#69737a">Philippians 2:4, KJV</p>
+  </div>
+  <aside class="credentials">
+   <h3>Words for the road you're walking</h3>
+   <p>Whether you're facing a hard season or looking for a little encouragement in the middle of a busy week, you'll find reflections grounded in Scripture and written for everyday readers.</p>
+  </aside>
+ </div>
+</section>
+<section class="section books" id="books">
+ <div class="wrap">
+  <div class="section-heading"><div class="eyebrow">Books by Billy Ready, Jr.</div><h2>Encouragement for every season</h2><p>Scripture-centered hope, practical wisdom, and stories for the everyday moments that shape our lives.</p></div>
+  <div class="featured-books">
+   <article class="featured-book">
+    <a class="cover-link" href="https://www.amazon.com/s?k=When+The+Storms+Roll+In+Billy+Ready" target="_blank" rel="noopener noreferrer" aria-label="Find When The Storms Roll In"><img class="real-book-cover" src="images/books/when-the-storms-roll-in.jpg" alt="Cover of When The Storms Roll In by Billy Ready, Jr." loading="lazy"></a>
+    <div class="featured-copy"><div class="eyebrow">Featured devotional</div><h3>When The Storms Roll In</h3><p>Forty devotional readings for seasons when life feels uncertain. Find Scripture-centered encouragement to help you hold on to faith through life's storms.</p><a class="text-link" href="https://www.amazon.com/s?k=When+The+Storms+Roll+In+Billy+Ready" target="_blank" rel="noopener noreferrer">FIND THE BOOK ON AMAZON &rarr;</a></div>
+   </article>
+   <article class="featured-book">
+    <a class="cover-link" href="https://www.amazon.com/s?k=Exceeding+Great+Joy+Billy+Ready" target="_blank" rel="noopener noreferrer" aria-label="Find Exceeding Great Joy"><img class="real-book-cover" src="images/books/exceeding-great-joy.png" alt="Cover of Exceeding Great Joy by Billy Ready, Jr." loading="lazy"></a>
+    <div class="featured-copy"><div class="eyebrow">Christmas devotional</div><h3>Exceeding Great Joy</h3><p>A Christmas devotional to help readers reflect on the wonder, promise, and joy of Christ's coming.</p><a class="text-link" href="https://www.amazon.com/s?k=Exceeding+Great+Joy+Billy+Ready" target="_blank" rel="noopener noreferrer">FIND THE BOOK ON AMAZON &rarr;</a></div>
+   </article>
+  </div>
+  <div class="book-gallery-heading"><h3>More books and writing projects</h3><p>Explore the published books and current writing projects from Billy Ready, Jr.</p></div>
+  <div class="book-gallery">
+   <article class="gallery-card"><a class="gallery-cover-link" href="https://www.amazon.com/s?k=A+Christian+Songwriter%27s+Journey+Billy+Ready" target="_blank" rel="noopener noreferrer"><img class="real-book-cover" src="images/books/a-christian-songwriters-journey.jpg" alt="Cover of A Christian Songwriter's Journey by Billy Ready, Jr." loading="lazy"></a><h4>A Christian Songwriter's Journey</h4><p>Stories and reflections from a life of faith and songwriting.</p><span class="book-status">Published</span></article>
+   <article class="gallery-card"><div class="gallery-cover-link"><img class="real-book-cover" src="images/books/am-i-crazy-or-what.png" alt="Cover of Am I Crazy or What? by Billy Ready, Jr." loading="lazy"></div><h4>Am I Crazy or What?</h4><p>An accessible, conversational look at the questions people ask about thoughts, feelings, and everyday life.</p><span class="book-status">Book project</span></article>
+   <article class="gallery-card"><div class="gallery-cover-link"><img class="real-book-cover" src="images/books/the-thrill-of-hope.png" alt="Cover of The Thrill Of Hope by Billy Ready, Jr." loading="lazy"></div><h4>The Thrill Of Hope</h4><p>A Christmas music project featuring original songs and traditional seasonal favorites.</p><span class="book-status">Music project</span></article>
+  </div>
+  <p class="cover-reminder"></p>
+ </div>
+</section>
+<section class="section devotional" id="devotional">
+ <div class="wrap devotional-grid">
+  <div><div class="eyebrow">Faith for your week</div><h2>A few minutes of truth for the middle of life</h2><p>Short devotions and thoughtful reflections connect the Bible with relationships, personal growth, hard questions, and the moments that shape us.</p><p>Come back for new writing, or join the reader list to hear when fresh encouragement is available.</p><a class="btn btn-gold" style="background:var(--navy);color:#fff" href="#newsletter">GET DEVOTIONAL UPDATES</a></div>
+  <article class="devotion-card"><div class="verse">A thought to carry with you</div><h3>Faithfulness in the ordinary</h3><p>We often look for God in the big turning points. Yet much of life happens in small decisions, quiet acts of kindness, and the choice to keep trusting when the next step isn't obvious.</p><p>Today, ask yourself: What is one faithful step I can take with the person, responsibility, or opportunity in front of me?</p><p style="font-size:13px;color:#69737a">A sample reflection for the Faith At The Speed Of Life community.</p></article>
+ </div>
+</section>
+<section class="newsletter" id="newsletter">
+ <div class="wrap newsletter-inner">
+  <div><div class="eyebrow">Stay connected</div><h2>A little encouragement in your inbox.</h2><p>Receive occasional devotional reflections, news about new books, and updates from Billy. No daily flood of emails, just thoughtful notes for your journey.</p></div>
+  <form class="signup" id="signup-form">
+   <label for="reader-name">Your name</label><input id="reader-name" name="name" type="text" placeholder="First name">
+   <label for="reader-email">Email address</label><input id="reader-email" name="email" type="email" placeholder="you@example.com" required>
+   <button class="btn btn-gold" type="submit">I'D LIKE TO STAY CONNECTED</button>
+   <div class="form-note" id="form-note">This sample form needs to be connected to your email service before publishing.</div>
+  </form>
+ </div>
+</section>
+</main>
+<footer><div class="wrap footer-inner"><div>&copy; <span id="year"></span> Billy Ready, Jr. · Faith At The Speed Of Life</div><div class="footer-links"><a href="#home">Back to top ↑</a><a href="#books">Books</a><a href="#newsletter">Contact & updates</a></div></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('signup-form').addEventListener('submit', function(e){
+ e.preventDefault();
+ document.getElementById('form-note').textContent = 'Thanks for your interest. Connect this form to your email platform to collect subscriptions.';
+});
+</script>
+</body>
+</html>
