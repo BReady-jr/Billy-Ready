@@ -139,22 +139,19 @@ footer{background:#12395f}
 <section class="newsletter" id="newsletter">
  <div class="wrap newsletter-inner">
   <div><div class="eyebrow">Stay connected</div><h2>A little encouragement in your inbox.</h2><p>Receive occasional devotional reflections, news about new books, and updates from Billy. No daily flood of emails, just thoughtful notes for your journey.</p></div>
-  <form class="signup" id="signup-form">
-   <label for="reader-name">Your name</label><input id="reader-name" name="name" type="text" placeholder="First name">
-   <label for="reader-email">Email address</label><input id="reader-email" name="email" type="email" placeholder="you@example.com" required>
-   <button class="btn btn-gold" type="submit">I'D LIKE TO STAY CONNECTED</button>
-   <div class="form-note" id="form-note">This sample form needs to be connected to your email service before publishing.</div>
-  </form>
+  <div class="signup">
+<iframe data-w-type="embedded" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://1uyv5.mjt.lu/wgt/1uyv5/swjo/form?c=b4687f47" width="100%" style="height: 0;"></iframe>
+
+<script type="text/javascript" src="https://app.mailjet.com/pas-nc-embedded-v2.js"></script>
+
+</div>
  </div>
 </section>
 </main>
 <footer><div class="wrap footer-inner"><div>&copy; <span id="year"></span> Billy Ready, Jr. · Faith At The Speed Of Life</div><div class="footer-links"><a href="#home">Back to top ↑</a><a href="#books">Books</a><a href="#newsletter">Contact & updates</a></div></div></footer>
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
-document.getElementById('signup-form').addEventListener('submit', function(e){
- e.preventDefault();
- document.getElementById('form-note').textContent = 'Thanks for your interest. Connect this form to your email platform to collect subscriptions.';
-});
+
 </script>
 </body>
 </html>
